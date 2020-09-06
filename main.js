@@ -324,7 +324,7 @@ function switchMenu(value)  {
             var paragraph1 = document.createElement('span');
             paragraph1.style = "font-size: 1.5em; margin-top: 5%";
             paragraph1.className = "fadeInText";
-            paragraph1.appendChild(document.createTextNode("If you'd' like to get in touch, please email me! Take a loot at my resume and browse my Union χ Infobase too for more information."));
+            paragraph1.appendChild(document.createTextNode("If you'd like to get in touch, please email me! Take a look at my resume and browse my Union χ Infobase too for more information."));
             primaryDiv.appendChild(paragraph1);
 
             primaryDiv.appendChild(breakElement.cloneNode());
