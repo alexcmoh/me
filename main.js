@@ -250,21 +250,71 @@ function switchMenu(value)  {
             primaryDiv.appendChild(breakElement.cloneNode());
             primaryDiv.appendChild(breakElement.cloneNode());
 
-            var paragraph1 = document.createElement('span');
-            paragraph1.style = "font-size: 1.5em; margin-top: 5%";
-            paragraph1.className = "fadeInText";
-            paragraph1.appendChild(document.createTextNode("First, I needed to figure out a way to detect new notices. I navigated to the game's notice page and looked at the page source. I found that the page was populated with links to individual notices. I created a plan to store links in a JSON. Every hour, I would make the bot check the site for new links. If there is a link that was not present in the JSON before or if the order of a notice changed (indicating that it was updated), then I take note of the links and insert them into the JSON by the order listed on the website."));
-            primaryDiv.appendChild(paragraph1);
+            var paragraph3 = document.createElement('span');
+            paragraph3.style = "font-size: 1.5em; margin-top: 5%";
+            paragraph3.className = "fadeInText";
+            paragraph3.appendChild(document.createTextNode("First, I needed to figure out a way to detect new notices. I navigated to the game's notice page and looked at the page source. I found that the page was populated with links to individual notices. I created a plan to store links in a JSON. Every hour, I would make the bot check the site for new links. If there is a link that was not present in the JSON before or if the order of a notice changed (indicating that it was updated), then I take note of the links and insert them into the JSON by the order listed on the website."));
+            primaryDiv.appendChild(paragraph3);
 
 
             primaryDiv.appendChild(breakElement.cloneNode());
             primaryDiv.appendChild(breakElement.cloneNode());
             primaryDiv.appendChild(breakElement.cloneNode());
             primaryDiv.appendChild(breakElement.cloneNode());
+
+            var image3 = document.createElement('img');
+            image3.src = "./images/item3_3.png";
+            image3.style = "width: 600px; max-width: 100%; vertical-align: middle";
+            image3.className = "fadeInText";
+            primaryDiv.appendChild(image3);
+
+            primaryDiv.appendChild(breakElement.cloneNode());
+            primaryDiv.appendChild(breakElement.cloneNode());
+
+            var paragraph4 = document.createElement('span');
+            paragraph4.style = "font-size: 1.5em; margin-top: 5%";
+            paragraph4.className = "fadeInText";
+            paragraph4.appendChild(document.createTextNode("Next, I had to parse the notices given links to their pages. I iterated through each notice, removed extraneous spacing, and organized information by text, image, and tabularized info. I also had to split the post into parts if it exceeded 2,000 characters, which is the character limit for Discord messages. The bot would then send this notice to a specified channel."));
+            primaryDiv.appendChild(paragraph4);
+
+
+            primaryDiv.appendChild(breakElement.cloneNode());
+            primaryDiv.appendChild(breakElement.cloneNode());
+
+            var paragraph5 = document.createElement('span');
+            paragraph5.style = "font-size: 1.5em; margin-top: 5%";
+            paragraph5.className = "fadeInText";
+            paragraph5.appendChild(document.createTextNode("In just one short week, I created a Python bot from scratch. The game's notice page rotates out notices one a limit is met, so having the ability to scroll through a Discord channel to find older, important information is helpful for players. I've also added other commands, such as one that calculates the cost to purchase certain deals. Creating a bot by hand allows me control and utility that I could not have had without it, and I like using my skills to make day to day interactions run smoother for everyone."));
+            primaryDiv.appendChild(paragraph5);
+
+            primaryDiv.appendChild(breakElement.cloneNode());
+            primaryDiv.appendChild(breakElement.cloneNode());
+            primaryDiv.appendChild(breakElement.cloneNode());
+            primaryDiv.appendChild(breakElement.cloneNode());
+            break;
+        case 4:
+            var breakElement = document.createElement('br');
+            primaryDiv.appendChild(breakElement);
+
+            var selector = Math.floor(Math.random() * 3);
+            var variableImage = "item1_1";
+            switch(selector)    {
+                case 0:
+                    variableImage = "item1_1";
+                    break;
+                case 1:
+                    variableImage = "item1_2";
+                    break;
+                case 2:
+                    variableImage = "item3_1";
+                    break;
+                default:
+                    break;
+            }
 
             var image2 = document.createElement('img');
-            image2.src = "./images/item3_3.png";
-            image2.style = "width: 600px; max-width: 100%; vertical-align: middle";
+            image2.src = "./images/" + variableImage + ".png";
+            image2.style = "width: 300px; max-width: 100%; vertical-align: middle";
             image2.className = "fadeInText";
             primaryDiv.appendChild(image2);
 
@@ -274,21 +324,8 @@ function switchMenu(value)  {
             var paragraph1 = document.createElement('span');
             paragraph1.style = "font-size: 1.5em; margin-top: 5%";
             paragraph1.className = "fadeInText";
-            paragraph1.appendChild(document.createTextNode("Next, I had to parse the notices given links to their pages. I iterated through each notice, removed extraneous spacing, and organized information by text, image, and tabularized info. I also had to split the post into parts if it exceeded 2,000 characters, which is the character limit for Discord messages. The bot would then send this notice to a specified channel."));
+            paragraph1.appendChild(document.createTextNode("If you'd' like to get in touch, please email me! Take a loot at my resume and browse my Union χ Infobase too for more information."));
             primaryDiv.appendChild(paragraph1);
-
-
-            primaryDiv.appendChild(breakElement.cloneNode());
-            primaryDiv.appendChild(breakElement.cloneNode());
-            primaryDiv.appendChild(breakElement.cloneNode());
-            primaryDiv.appendChild(breakElement.cloneNode());
-
-
-            var image2 = document.createElement('img');
-            image2.src = "./images/item2_1.png";
-            image2.style = "width: 600px; max-width: 100%; vertical-align: middle; box-shadow: 5px 5px rgb(0, 0, 0)";
-            image2.className = "fadeInText";
-            primaryDiv.appendChild(image2);
 
             primaryDiv.appendChild(breakElement.cloneNode());
             primaryDiv.appendChild(breakElement.cloneNode());
@@ -296,17 +333,43 @@ function switchMenu(value)  {
             var paragraph2 = document.createElement('span');
             paragraph2.style = "font-size: 1.5em; margin-top: 5%";
             paragraph2.className = "fadeInText";
-            paragraph2.appendChild(document.createTextNode("My first page was a cost calculator. Players in Union χ use weapons called Keyblades that can be upgraded nearly 200 times. With 16 Keyblades to choose from, I believed that a web tool would be perfect for selecting a Keyblade and getting its upgrade costs. I entered all of my spreadsheet information into a database and hooked it up to some inputs on the frontend. Players can select a Keyblade and inpput base and target levels. The website totals up all the necessary materials for the required upgrades and informs the user. In a game where upgrade materials are rare, it is important to arm players with knowledge so that they can make an informed decision about how they would like to spend their valuable materials."));
+
+            var aLink1Text = document.createTextNode("Email me");
+            var aLink1 = document.createElement('a');
+            aLink1.appendChild(aLink1Text);
+            aLink1.href = "mailto:amoh@purdue.edu";
+            paragraph2.appendChild(aLink1);
             primaryDiv.appendChild(paragraph2);
 
             primaryDiv.appendChild(breakElement.cloneNode());
             primaryDiv.appendChild(breakElement.cloneNode());
 
-            var paragraph2a = document.createElement('span');
-            paragraph2a.style = "font-size: 1.5em; margin-top: 5%";
-            paragraph2a.className = "fadeInText";
-            paragraph2a.appendChild(document.createTextNode("Since I launched my site earlier this year, I have added several more pages to accomodate expanded needs. One page shows off the game's beautiful scenery, and another calculates your total level up bonuses based on your current level. I was happy to see both myself and others enjoying these new tools. However, there was one ambitious idea I had yet to tackle."));
-            primaryDiv.appendChild(paragraph2a);
+            var paragraph3 = document.createElement('span');
+            paragraph3.style = "font-size: 1.5em; margin-top: 5%";
+            paragraph3.className = "fadeInText";
+
+            var aLink2Text = document.createTextNode("View my resume");
+            var aLink2 = document.createElement('a');
+            aLink2.appendChild(aLink2Text);
+            aLink2.href = "./files/Resume.pdf";
+            aLink2.target = "_blank";
+            paragraph3.appendChild(aLink2);
+            primaryDiv.appendChild(paragraph3);
+
+            primaryDiv.appendChild(breakElement.cloneNode());
+            primaryDiv.appendChild(breakElement.cloneNode());
+
+            var paragraph4 = document.createElement('span');
+            paragraph4.style = "font-size: 1.5em; margin-top: 5%";
+            paragraph4.className = "fadeInText";
+
+            var aLink3Text = document.createTextNode("Check out the Union χ Infobase");
+            var aLink3 = document.createElement('a');
+            aLink3.appendChild(aLink3Text);
+            aLink3.href = "https://roboloid.github.io/khux/keyblade";
+            aLink3.target = "_blank";
+            paragraph4.appendChild(aLink3);
+            primaryDiv.appendChild(paragraph4);
 
             primaryDiv.appendChild(breakElement.cloneNode());
             primaryDiv.appendChild(breakElement.cloneNode());

@@ -66,6 +66,12 @@
                 }
             }
 
+            .storage   {
+                display: none;
+                visibility: hidden;
+                width: 0px;
+            }
+
             .menuIcon {
                 color: rgb(255, 255, 255);
                 text-shadow: 1.50px 1.50px rgb(0, 0, 0, 0.50);
@@ -122,6 +128,7 @@
     </head>
 
     <body>
+
         <div class="headerDiv_Parent">
             <div class="headerDiv">
                 <h1 style="margin-top: 5%; text-align: center">Welcome to Alex Moh's portfolio.</h1>
@@ -138,7 +145,7 @@
             <input type="image" onclick="switchMenu(1)" class="menuIcon" src="./images/menu_1.png"/>
             <input type="image" onclick="switchMenu(2)" class="menuIcon" src="./images/menu_2.png"/>
             <input type="image" onclick="switchMenu(3)" class="menuIcon" src="./images/menu_3.png"/>
-            <input type="image" onclick="switchMenu(4)" class="menuIcon" src="./images/test.png"/>
+            <input type="image" onclick="switchMenu(4)" class="menuIcon" src="./images/menu_4.png"/>
         </div>
         
         <hr>
@@ -146,6 +153,15 @@
         <div id="mainContainer" style="text-align: center; margin-left: auto; margin-right: auto; width: 75%; font-family: Base Font">
 
         </div>
+
+        <img class="storage" src="./images/item1_1.png">
+        <img class="storage" src="./images/item1_2.png">
+        <img class="storage" src="./images/item1_3.png">
+        <img class="storage" src="./images/item2_1.png">
+        <img class="storage" src="./images/item2_2.png">
+        <img class="storage" src="./images/item3_1.png">
+        <img class="storage" src="./images/item3_2.png">
+        <img class="storage" src="./images/item3_3.png">
 
         <script src="./main.js"></script>
     </body>
