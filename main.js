@@ -189,8 +189,8 @@ function switchMenu(value)  {
             primaryDiv.appendChild(breakElement.cloneNode());
 
             var image4 = document.createElement('img');
-            image4.src = "./images/item2_2.png";
-            image4.style = "width: 600px; max-width: 100%; vertical-align: middle; box-shadow: 5px 5px rgb(0, 0, 0)";
+            image4.src = "./images/item2_3.png";
+            image4.style = "width: 700px; max-width: 100%; vertical-align: middle; box-shadow: 5px 5px rgb(0, 0, 0)";
             image4.className = "fadeInText";
             primaryDiv.appendChild(image4);
 
