@@ -363,7 +363,7 @@ function switchMenu(value)  {
             paragraph4.style = "font-size: 1.5em; margin-top: 5%";
             paragraph4.className = "fadeInText";
 
-            var aLink3Text = document.createTextNode("Check out the Union χ Infobase");
+            var aLink3Text = document.createTextNode("Browse the Union χ Infobase");
             var aLink3 = document.createElement('a');
             aLink3.appendChild(aLink3Text);
             aLink3.href = "https://roboloid.github.io/khux/keyblade";
