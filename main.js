@@ -284,7 +284,7 @@ function switchMenu(value)  {
             var paragraph5 = document.createElement('span');
             paragraph5.style = "font-size: 1.5em; margin-top: 5%";
             paragraph5.className = "fadeInText";
-            paragraph5.appendChild(document.createTextNode("In just one short week, I created a Python bot from scratch. The game's notice page rotates out notices one a limit is met, so having the ability to scroll through a Discord channel to find older, important information is helpful for players. I've also added other commands, such as one that calculates the cost to purchase certain deals. Creating a bot by hand allows me control and utility that I could not have had without it, and I like using my skills to make day to day interactions run smoother for everyone."));
+            paragraph5.appendChild(document.createTextNode("In just one short week, I created a Python bot from scratch. The game's notice page rotates out notices one a limit is met, so having the ability to scroll through a Discord channel to find important legacy information is helpful for players. I've also added other commands, such as one that calculates the cost to purchase certain deals. Creating a bot by hand allows me control and utility that I could not have had without it, and I like using my skills to make day to day interactions run smoother for everyone."));
             primaryDiv.appendChild(paragraph5);
 
             primaryDiv.appendChild(breakElement.cloneNode());
