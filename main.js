@@ -43,7 +43,7 @@ function switchMenu(value)  {
             var paragraph2 = document.createElement('span');
             paragraph2.style = "font-size: 2em; margin-top: 5%";
             paragraph2.className = "fadeInText";
-            paragraph2.appendChild(document.createTextNode("I enjoy working in groups to create projects that fully utilize everyone's creativity."));
+            paragraph2.appendChild(document.createTextNode("I enjoy working in team settings that utilize everyone's creativity to develop software that helps people."));
             primaryDiv.appendChild(paragraph2);
             
 
