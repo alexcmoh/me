@@ -6,7 +6,6 @@ function switchMenu(value)  {
 
     switch(value)   {
         case 1:     // About me
-            topButton.style = "display: initial"
             var breakElement = document.createElement('br');
             primaryDiv.appendChild(breakElement);
 
