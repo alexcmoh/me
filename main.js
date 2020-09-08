@@ -18,7 +18,7 @@ function switchMenu(value)  {
             primaryDiv.appendChild(breakElement.cloneNode());
 
             var paragraph1 = document.createElement('span');
-            paragraph1.style = "font-size: 2em; margin-top: 5%";
+            paragraph1.style = "font-size: 1.5em; margin-top: 5%";
             paragraph1.className = "fadeInText";
             paragraph1.appendChild(document.createTextNode("Hello! My name is Alex Moh. I'm a Computer Science student at Purdue University, graduating May 2021."));
             primaryDiv.appendChild(paragraph1);
@@ -41,7 +41,7 @@ function switchMenu(value)  {
             primaryDiv.appendChild(breakElement.cloneNode());
 
             var paragraph2 = document.createElement('span');
-            paragraph2.style = "font-size: 2em; margin-top: 5%";
+            paragraph2.style = "font-size: 1.5em; margin-top: 5%";
             paragraph2.className = "fadeInText";
             paragraph2.appendChild(document.createTextNode("I enjoy working in team settings that utilize everyone's creativity to develop software that helps people."));
             primaryDiv.appendChild(paragraph2);
@@ -63,9 +63,9 @@ function switchMenu(value)  {
             primaryDiv.appendChild(breakElement.cloneNode());
 
             var paragraph3 = document.createElement('span');
-            paragraph3.style = "font-size: 2em; margin-top: 5%";
+            paragraph3.style = "font-size: 1.5em; margin-top: 5%";
             paragraph3.className = "fadeInText";
-            paragraph3.appendChild(document.createTextNode("I love using my skills to help others, and my personal projects exemplify this desire. Please check out my projects in the menu to learn more!"));
+            paragraph3.appendChild(document.createTextNode("I love using my skills to help others, and my personal projects exemplify this desire. Please click on the above icons to learn more!"));
             primaryDiv.appendChild(paragraph3);
 
             primaryDiv.appendChild(breakElement.cloneNode());
@@ -78,7 +78,7 @@ function switchMenu(value)  {
             primaryDiv.appendChild(breakElement);
 
             var paragraph0 = document.createElement('span');
-            paragraph0.style = "font-size: 3em; margin-top: 5%";
+            paragraph0.style = "font-size: 2.5em; margin-top: 5%";
             paragraph0.className = "fadeInText";
             paragraph0.appendChild(document.createTextNode("Every great idea begins with a spark."));
             primaryDiv.appendChild(paragraph0);
@@ -169,7 +169,7 @@ function switchMenu(value)  {
             primaryDiv.appendChild(breakElement.cloneNode());
 
             var paragraph1 = document.createElement('span');
-            paragraph1.style = "font-size: 3em; margin-top: 5%";
+            paragraph1.style = "font-size: 2.5em; margin-top: 5%";
             paragraph1.className = "fadeInText";
             paragraph1.appendChild(document.createTextNode("Over 5,800 users and nearly 13,000 sessions"));
             primaryDiv.appendChild(paragraph1);
@@ -180,7 +180,7 @@ function switchMenu(value)  {
             var paragraph3b = document.createElement('span');
             paragraph3b.style = "font-size: 1.5em; margin-top: 5%";
             paragraph3b.className = "fadeInText";
-            paragraph3b.appendChild(document.createTextNode("After about a month of work in secrecy, I unveiled my newest, largest addition to my website. The reception was nothing short of astronomical. Hundreds of users gathered to the site that day to check out the latest tool. Users had the ability to search, sort, and filter over all of the units in the game. With this, the people themselves could answer questions such as 'What units have this special ability?', 'How many units in the game feature this specific character?', and 'Of the blue units in the game, which have a specific property?' My journey had come full circle, and I passed on my knowledge to the users and given them the tools for success."));
+            paragraph3b.appendChild(document.createTextNode("After about a month of work, I unveiled the newest, largest addition to my website. The reception was nothing short of astronomical. Hundreds of users gathered to the site that day to check out the latest tool. Users had the ability to search, sort, and filter over all of the units in the game. With this, the people themselves could answer questions such as 'What units have this special ability?', 'How many units in the game feature this specific character?', and 'Of the blue units in the game, which have a specific property?' My journey had come full circle, and I passed on my knowledge to the users and given them the tools for success."));
             primaryDiv.appendChild(paragraph3b);
 
             primaryDiv.appendChild(breakElement.cloneNode());
@@ -253,7 +253,7 @@ function switchMenu(value)  {
             var paragraph3 = document.createElement('span');
             paragraph3.style = "font-size: 1.5em; margin-top: 5%";
             paragraph3.className = "fadeInText";
-            paragraph3.appendChild(document.createTextNode("First, I needed to figure out a way to detect new notices. I navigated to the game's notice page and looked at the page source. I found that the page was populated with links to individual notices. I created a plan to store links in a JSON. Every hour, I would make the bot check the site for new links. If there is a link that was not present in the JSON before or if the order of a notice changed (indicating that it was updated), then I take note of the links and insert them into the JSON by the order listed on the website."));
+            paragraph3.appendChild(document.createTextNode("First, I needed to figure out a way to detect new notices. I navigated to the game's notice page and looked at the page source. I found that the page was populated with links to individual notices. I created a plan to store links in a JSON. I configured the bot check the site hourly for new links. If there is a link that was not present in the JSON before, or if the order of a notice changed (indicating that it was updated), then I record the links and insert them into the JSON by the order listed on the website."));
             primaryDiv.appendChild(paragraph3);
 
 
@@ -324,7 +324,7 @@ function switchMenu(value)  {
             var paragraph1 = document.createElement('span');
             paragraph1.style = "font-size: 1.5em; margin-top: 5%";
             paragraph1.className = "fadeInText";
-            paragraph1.appendChild(document.createTextNode("If you'd like to get in touch, please email me! Take a look at my resume and browse my Union χ Infobase for more information."));
+            paragraph1.appendChild(document.createTextNode("If you'd like to get in touch, send me an email! Take a look at my resume and browse my Union χ Infobase for more information."));
             primaryDiv.appendChild(paragraph1);
 
             primaryDiv.appendChild(breakElement.cloneNode());
