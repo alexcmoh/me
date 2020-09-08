@@ -76,7 +76,6 @@
 
             .menuIcon {
                 color: rgb(255, 255, 255);
-                text-shadow: 1.50px 1.50px rgb(0, 0, 0, 0.50);
                 text-align: center;
                 vertical-align: center;
                 margin-left: 5%;
@@ -126,6 +125,34 @@
                 animation-name: FadeIn;
                 animation-duration: 1s;
             }
+
+            .returnButton {
+                display: none;
+                z-index: 1000;
+                position: fixed;
+                bottom: 5%;
+                right: 5%;
+                color: white;
+                text-shadow: 1.50px 1.50px rgb(0, 0, 0, 0.50);
+                text-align: center;
+                width: 10%;
+                border-width: 5px;
+                border: double 5px transparent;
+                border-radius: 20px;
+                background-image:   linear-gradient(to bottom, rgb(0, 49, 128), rgb(37, 160, 237)), 
+                                    linear-gradient(to bottom, rgb(128, 198, 239), rgb(8, 38, 108));
+                background-origin: border-box;
+                background-position: center;
+                background-clip: content-box, border-box;
+                text-decoration: none;
+            }
+
+            .returnButton:hover, .returnButton:focus {
+                color: white;
+                background-image:   linear-gradient(to bottom, rgb(7, 84, 179), rgb(44, 182, 234)),
+                                    linear-gradient(to bottom, rgb(150, 203, 233), rgb(31, 77, 165));
+                text-decoration: none;
+            }
         </style>
     </head>
 
@@ -138,6 +165,8 @@
                 <h3 style="text-align: center">Please click on the icons below to learn more about me.</h3>
             </div>
         </div>
+
+        <a id="top"></a>
         
         <hr>
 
@@ -151,6 +180,8 @@
         </div>
         
         <hr>
+
+        <a id="topButton" href="#top" class="returnButton">Return to top</a>
 
         <div id="mainContainer" style="text-align: center; margin-left: auto; margin-right: auto; width: 90%; font-family: Base Font">
 

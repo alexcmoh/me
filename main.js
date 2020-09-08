@@ -1,10 +1,12 @@
 function switchMenu(value)  {
     var primaryDiv = document.getElementById("mainContainer");
+    var topButton = document.getElementById("topButton");
 
     primaryDiv.innerHTML = "";
 
     switch(value)   {
         case 1:     // About me
+            topButton.style = "display: initial"
             var breakElement = document.createElement('br');
             primaryDiv.appendChild(breakElement);
 
@@ -74,6 +76,7 @@ function switchMenu(value)  {
             primaryDiv.appendChild(breakElement.cloneNode());
             break;
         case 2:     // Union X Infobase
+            topButton.style = "display: initial"
             var breakElement = document.createElement('br');
             primaryDiv.appendChild(breakElement);
 
@@ -209,6 +212,7 @@ function switchMenu(value)  {
             primaryDiv.appendChild(breakElement.cloneNode());
             break;
         case 3: // Data Sora
+            topButton.style = "display: initial"
             var breakElement = document.createElement('br');
             primaryDiv.appendChild(breakElement);
 
@@ -293,6 +297,7 @@ function switchMenu(value)  {
             primaryDiv.appendChild(breakElement.cloneNode());
             break;
         case 4:
+            topButton.style = "display: none"
             var breakElement = document.createElement('br');
             primaryDiv.appendChild(breakElement);
 
