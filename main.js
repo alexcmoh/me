@@ -174,7 +174,7 @@ function switchMenu(value)  {
             var paragraph1 = document.createElement('span');
             paragraph1.style = "font-size: 2.5em; margin-top: 5%";
             paragraph1.className = "fadeInText";
-            paragraph1.appendChild(document.createTextNode("Over 11,000 users and 25,000 sessions"));
+            paragraph1.appendChild(document.createTextNode("Over 13,000 users and 31,000 sessions"));
             primaryDiv.appendChild(paragraph1);
 
             primaryDiv.appendChild(breakElement.cloneNode());
@@ -371,7 +371,7 @@ function switchMenu(value)  {
             var aLink3Text = document.createTextNode("Browse the Union χ Infobase");
             var aLink3 = document.createElement('a');
             aLink3.appendChild(aLink3Text);
-            aLink3.href = "https://roboloid.github.io/khux/keyblade";
+            aLink3.href = "https://roboloid.github.io/khux/search";
             aLink3.target = "_blank";
             paragraph4.appendChild(aLink3);
             primaryDiv.appendChild(paragraph4);
