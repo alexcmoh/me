@@ -22,7 +22,7 @@ function switchMenu(value)  {
             var paragraph1 = document.createElement('span');
             paragraph1.style = "font-size: 1.5em; margin-top: 5%";
             paragraph1.className = "fadeInText";
-            paragraph1.appendChild(document.createTextNode("Hello! My name is Alex Moh. I'm a Computer Science undergraduate from Purdue University."));
+            paragraph1.appendChild(document.createTextNode("Hello! My name is Alex Moh. I'm a Computer Science graduate from Purdue University."));
             primaryDiv.appendChild(paragraph1);
 
 
