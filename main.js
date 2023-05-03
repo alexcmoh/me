@@ -174,7 +174,7 @@ function switchMenu(value)  {
             var paragraph1 = document.createElement('span');
             paragraph1.style = "font-size: 2.5em; margin-top: 5%";
             paragraph1.className = "fadeInText";
-            paragraph1.appendChild(document.createTextNode("Over 26,000 users and 62,000 sessions"));
+            paragraph1.appendChild(document.createTextNode("Over 32,700 users and 73,700 sessions"));
             primaryDiv.appendChild(paragraph1);
 
             primaryDiv.appendChild(breakElement.cloneNode());
