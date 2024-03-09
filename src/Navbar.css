@@ -1,43 +1,15 @@
-.sidebar-container {
-    position: relative;
-    width: 200px; /* Adjust width as needed */
+.navbarDiv  {
+    width: 100%;
+    text-align: center;
 }
 
-.menu-button {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    width: 200px; /* Set width to match the sidebar width */
-    transition: margin-left 0.3s ease; /* Apply transition to move the button */
+.navbarItem {
+    color: #1D3453;
+    text-decoration: none;
+    font-size: 3em;
+    font-family: 'Montserrat';
 }
 
-.menu-content {
-    position: absolute;
-    top: 0;
-    left: -200px; /* Start position outside the container */
-    width: 200px; /* Width of the sidebar */
-    height: 100%; /* Height of the sidebar */
-    background-color: #fff; /* Background color of the sidebar */
-    transition: left 0.3s ease; /* Transition for smooth sliding */
-}
-
-.menu-content ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.menu-content ul li {
-    padding: 10px;
-    border-bottom: 1px solid #ccc; /* Add a border between menu items */
-}
-
-.sidebar-container:hover .menu-content {
-    left: 0; /* Slide in the sidebar when container is hovered */
-}
-
-.sidebar-container:hover .menu-button {
-    margin-left: 200px; /* Move the button to the right when container is hovered */
+.navbarItem:active {
+    color: #000000;
 }

@@ -1,3 +1,9 @@
+body  {
+  margin: 0;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(#F0F6FC, #D6EAFF);
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +32,10 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.appDiv {
+  padding: 100px;
 }
 
 @keyframes App-logo-spin {
