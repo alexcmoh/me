@@ -12,7 +12,7 @@ function About() {
 			<h1>Welcome to Alex's portfolio.</h1>
 			<div className="divBlock">
 				<div className="halfBlock">
-					<p>Hello! My name is Alex Moh. I'm a Computer Science graduate from Purdue University. For the past 2 years, I have been gaining valuable hands-on experience working as a Software Engineer at Deloitte Consulting. I have also pursued further education in the form of certifications focused on cybersecurity and artificial intelligence.</p>
+					<p>Hello! My name is Alex Moh. I'm a Computer Science graduate from Purdue University. For the past 2 years, I have been gaining valuable hands-on experience working as a Software Engineer at Deloitte Consulting. I have also pursued further education and obtained certifications on cybersecurity as well as artificial intelligence.</p>
 				</div>
 				<div className="halfBlock">
 					<img className="imageFile" src={IMGPurdueLogo} alt="Purdue University logo" />
@@ -28,7 +28,7 @@ function About() {
 					<img className="imageFile size400" src={IMGKHUXSearchBanner} alt="KHUX Info Page Sample" />
 				</div>
 				<div className="halfBlock">
-					<p>I have experience creating web apps and Python bots to serve communities. My most popular web app achieved over 70,000 views, and my best Python bot is deployed to Discord and used in servers containing tens of thousands of users. Being customer-driven is one of my core qualities.</p>
+					<p>I have expertise in creating web apps and Python bots to serve communities. My most popular web app achieved over 70,000 views, and my best Python bot is deployed to Discord and used in servers with tens of thousands of users. My development process is strongly influenced by user needs, and being customer-driven is one of my core qualities.</p>
 				</div>
 			</div>
 			<br />
@@ -36,7 +36,7 @@ function About() {
 			<br />
 			<div className="divBlock">
 				<div className="halfBlock">
-					<p>I leverage powerful languages such as Angular, React, HTML, and Python to create useful projects. I enjoy equal parts diving ahead on my own and collaborating in groups to achieve my goals.</p>
+					<p>I leverage powerful languages such as Angular, React, HTML, and Python to create projects that solve problems and increase efficiency. I equally enjoy diving ahead on my own and collaborating in groups to achieve goals.</p>
 				</div>
 				<div className="halfBlock">
 					<img className="imageFile size400" src={IMGProgrammingMashup} alt="Programming languages logos" />

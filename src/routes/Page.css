@@ -6,8 +6,9 @@ p   {
     font-size: 1.5rem;
 }
 
-.headerRight    {
-    float: right;
+.bannerIcon {
+    height: 35px;
+    margin: 5px;
 }
 
 .PageContent    {
@@ -30,6 +31,12 @@ p   {
     flex-wrap: wrap;
 }
 
+.headerRight    {
+    float: right;
+    display: initial;
+    padding: 0px;
+}
+
 .imageFile {
     display: block;
     width: 300px;
@@ -38,7 +45,7 @@ p   {
     margin: auto;
 }
 
-.contactText    {
+.contactText, .contactText:visited   {
     text-decoration: none;
 }
 
