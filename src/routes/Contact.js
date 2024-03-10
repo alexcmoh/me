@@ -13,7 +13,7 @@ function Contact() {
                 <p>I look forward to hearing from you.</p>
                 <p>Email: <a className="contactText" href="mailto:alexcmoh@gmail.com">alexcmoh@gmail.com</a></p>
                 <p>LinkedIn: <a className="contactText" href="https://www.linkedin.com/in/alexcmoh" target="_blank">in/alexcmoh</a></p>
-                <p>Download a copy of my resume: <Link className="contactText" to="/assets/Resume.pdf" target="_blank" download={Resume}>Download</Link></p>
+                <p>Download a copy of my resume: <Link className="contactText" to="/assets/Resume.pdf" target="_blank" rel="noreferrer" download={Resume}>Download</Link></p>
                 
             </div>
             <br />
