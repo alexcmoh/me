@@ -42,7 +42,8 @@ function Projects() {
             <h1>Data Sora</h1>
 			<div className="divBlock">
 				<div className="halfBlock">
-					<p>My first Python project was Data Sora.</p>
+					<p>My first Python project was Data Sora. I was determined to solve a challenge in the Kingdom Hearts Union χ community. There were two issues: 1. the in-game notice list was only available in-game, while the app was open 2. the notice list only displayed the 20 most recent notices. With my Data Sora project, I created a solution for both challenges.</p>
+                    <p>The purpose of Data Sora is to track notices, web scrape the contents of notices, and post formatted content to Discord, a popular social media service.</p>
 				</div>
 				<div className="halfBlock">
 					<img className="imageFile" src={IMGDataSoraOfficialNotice} alt="KHUX official notice page" />

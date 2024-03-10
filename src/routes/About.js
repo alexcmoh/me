@@ -40,7 +40,7 @@ function About() {
 				</div>
 				<div className="halfBlock">
 					<img className="imageFile size400" src={IMGProgrammingMashup} alt="Programming languages logos" />
-					<img className="imageFile size400" src={IMGHackathonTeamPicture} alt="Hackathon group picture" />
+					<img className="imageFile size400" src={IMGHackathonTeamPicture} alt="Hackathon group award" />
 				</div>
 			</div>
 			<br />
