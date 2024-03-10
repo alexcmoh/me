@@ -42,12 +42,13 @@ function Projects() {
             <h1>Data Sora</h1>
 			<div className="divBlock">
 				<div className="halfBlock">
-					<p>My first Python project was Data Sora. I was determined to solve a challenge in the Kingdom Hearts Union χ community. There were two issues: 1. the in-game notice list was only available in-game, while the app was open 2. the notice list only displayed the 20 most recent notices. With my Data Sora project, I created a solution for both challenges.</p>
-                    <p>The purpose of Data Sora is to track notices, web scrape the contents of notices, and post formatted content to Discord, a popular social media service.</p>
+					<p>My first Python project was Data Sora. I was determined to solve a challenge in the Kingdom Hearts Union χ community. There were two issues: 1. the in-game notice list was only available in the in-game browser, and many browser feature were disabled 2. the notice list only displayed the 20 most recent notices. With my Data Sora project, I created a solution for both challenges.</p>
+                    <p>The purpose of Data Sora is to track notices, web scrape the contents of notices, and post formatted content to Discord, a popular social media service. I used context menu options on an Android device and some workarounds in order to find the URL of the notice page. I stored the notice URL, the notice name, and the date the notice was posted into a JSON. This would allow me to track notice history for archival purposes.</p>
+                    <p>Using the BeautifulSoup Python library, I scraped page contents given the URL. I further used the ibrary to format the text to prepare it for posting to Discord. Then I used Discord's API to send the text to specified server channels. I hosted the Python file on a file hosting service, which allowed it to automatically check for new notices every 30 minutes. New notices would be recorded, scraped, and posted to Discord. Thousands of users benefitted from being able to see new notices without loading and opening the game, and the log of Discord posts allowed users to scroll back through Data Sora posts to gain information about the past.</p>
 				</div>
 				<div className="halfBlock">
-					<img className="imageFile" src={IMGDataSoraOfficialNotice} alt="KHUX official notice page" />
-					<img className="imageFile" src={IMGDataSoraListing} alt="KHUX Data Sora Discord post" />
+					<img className="imageFile size500" src={IMGDataSoraOfficialNotice} alt="KHUX official notice page" />
+					<img className="imageFile size500" src={IMGDataSoraListing} alt="KHUX Data Sora Discord post" />
 				</div>
 			</div>
 		</div>

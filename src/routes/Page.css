@@ -38,6 +38,10 @@ p   {
     margin: auto;
 }
 
+.contactText    {
+    text-decoration: none;
+}
+
 .size500  {
     width: 500px;
 }
