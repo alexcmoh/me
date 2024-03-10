@@ -3,6 +3,8 @@ import IMGKHUXCostCalculator from "../assets/images/KHUX-Cost-Calculator.png";
 import IMGKHUXSearchOverview from "../assets/images/KHUX-Search-Overview.png";
 import IMGFFXIVGuidesHegemone from "../assets/images/FFXIV-Guides-Hegemone.png";
 import IMGFFXIVGuidesSildihn from "../assets/images/FFXIV-Guides-Sildihn.png";
+import IMGDataSoraOfficialNotice from "../assets/images/Data-Sora-Official-Notice.png";
+import IMGDataSoraListing from "../assets/images/Data-Sora-Listing.png";
 
 function Projects() {
 	return (
@@ -29,8 +31,22 @@ function Projects() {
 					<img className="imageFile size500" src={IMGFFXIVGuidesSildihn} alt="FFXIV Guides example screenshot" />
 				</div>
 				<div className="halfBlock">
-					<p>My next major website is for the massively multiplayer online game Final Fantasy 14. I organized several multi-person coordinated events where groups of 8 dedicated players participated in raids. In these raids, players must perform complex sequences of inputs, including executing an optimized rotation of actions and performing movements necessary to avoid boss attacks and losing the battle. In order to best communicate the boss's telegraphed attacks, the responsibilities of each player, and the strategies needed to weave all of these concepts together, I created another website.</p>
-                    <p>I created guides for each of the major fights in the game. Each guide was populated with images, videos, and text created by me. Over 50 players in my circle of raiders benefitted from my project. With this guide as their aid, many groups of players were able to successfully team up, clear challenges, and obtain achievements in the game that less than 10% of the playerbase own.</p>
+					<p>My next major website is for the massively multiplayer online game Final Fantasy 14. I organized several multi-person coordinated events where groups of 8 dedicated players participated in raids. In these raids, players must perform complex sequences of inputs, including executing an optimized rotation of actions and performing movements necessary to avoid boss attacks and losing the battle.</p>
+                    <p>In order to best communicate the boss's telegraphed attacks, the responsibilities of each player, and the strategies needed to weave all of these concepts together, I created a website aimed at helping players succeed.</p>
+                    <p>I created page guides for each of the latest fights in the game. Each guide was populated with images, videos, and text created by me. Over 50 players in my circle of raiders benefitted from my project. With this guide as their aid, many groups of players were able to successfully team up, clear challenges, and obtain achievements in the game that less than 10% of the playerbase own.</p>
+				</div>
+			</div>
+			<br />
+			<br />
+			<br />
+            <h1>Data Sora</h1>
+			<div className="divBlock">
+				<div className="halfBlock">
+					<p>My first Python project was Data Sora.</p>
+				</div>
+				<div className="halfBlock">
+					<img className="imageFile" src={IMGDataSoraOfficialNotice} alt="KHUX official notice page" />
+					<img className="imageFile" src={IMGDataSoraListing} alt="KHUX Data Sora Discord post" />
 				</div>
 			</div>
 		</div>
