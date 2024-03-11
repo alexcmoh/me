@@ -1,5 +1,4 @@
 import './Page.css';
-import IMGHackathonTeamPicture from "../assets/images/Hackathon-Team-Picture.png";
 import Resume from "../assets/Resume.pdf";
 
 function Contact() {
