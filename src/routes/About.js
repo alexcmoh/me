@@ -9,10 +9,10 @@ import IMGHackathonTeamPicture from "../assets/images/Hackathon-Team-Picture.png
 function About() {
 	return (
 		<div className="PageContent">
-			<h1>Welcome to Alex's portfolio.</h1>
+			<h1>Welcome to Alex's portfolio</h1>
 			<div className="divBlock">
 				<div className="halfBlock">
-					<p>Hello! My name is Alex Moh. I'm a Computer Science graduate from Purdue University. For the past 2 years, I have been gaining valuable hands-on experience working as a Software Engineer at Deloitte Consulting. I have also pursued further education and obtained certifications on cybersecurity as well as artificial intelligence.</p>
+					<p>Hello! My name is Alex Moh. I'm a Computer Science graduate from Purdue University. For the past two years, I have been gaining valuable hands-on experience working as a Software Engineer at Deloitte Consulting. I have also pursued further education and obtained certifications on cybersecurity as well as artificial intelligence.</p>
 				</div>
 				<div className="halfBlock">
 					<img className="imageFile" src={IMGPurdueLogo} alt="Purdue University logo" />
