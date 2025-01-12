@@ -1,6 +1,7 @@
 import './Page.css';
 import IMGPurdueLogo from "../assets/images/Purdue-University-Logo.png";
 import IMGDeloitteLogo from "../assets/images/Deloitte-Logo.png";
+import IMGSubtleLogo from "../assets/images/Subtle-Logo.png";
 import IMGDiscordLogo from "../assets/images/Discord-Logo.png";
 import IMGKHUXSearchBanner from "../assets/images/KHUX-Search-Banner.png";
 import IMGProgrammingMashup from "../assets/images/Programming-Mashup.png";
@@ -12,11 +13,12 @@ function About() {
 			<h1>Welcome to Alex's portfolio</h1>
 			<div className="divBlock">
 				<div className="halfBlock">
-					<p>Hello! My name is Alex Moh. I'm a Computer Science graduate from Purdue University. For the past two years, I have been gaining valuable hands-on experience working as a Software Engineer at Deloitte Consulting. I have also pursued further education and obtained certifications on cybersecurity as well as artificial intelligence.</p>
+					<p>Hello! My name is Alex Moh. I'm a Computer Science graduate from Purdue University. For the past year, I have been working as a Platform Engineer at Subtle Medical, with a focus in the AWS suite of tools. Before that, I worked as a Software Engineer at Deloitte Consulting. I have also pursued further education and obtained certifications on cybersecurity as well as artificial intelligence.</p>
 				</div>
 				<div className="halfBlock">
 					<img className="imageFile" src={IMGPurdueLogo} alt="Purdue University logo" />
 					<img className="imageFile" src={IMGDeloitteLogo} alt="Deloitte Consulting logo" />
+					<img className="imageFile" src={IMGSubtleLogo} alt="Subtle Medical logo" />
 				</div>
 			</div>
 			<br />
